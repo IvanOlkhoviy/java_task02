@@ -1,3 +1,4 @@
+package boxApp;
 
 public class Box {
 
@@ -23,9 +24,9 @@ public class Box {
     void add(Shape shape){
         if (shape.getVolume() <= this.volume){
             this.setVolume(this.getVolume() - shape.getVolume());
-            System.out.println("Shape added to box");
+            System.out.println("boxApp.Shape added to box");
         }else{
-            System.out.println("Shape didn`t add to box");
+            System.out.println("boxApp.Shape didn`t add to box");
         }
     }
 }

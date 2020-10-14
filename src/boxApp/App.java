@@ -1,3 +1,8 @@
+package boxApp;
+
+import boxApp.Box;
+import boxApp.Shape;
+
 public class App {
     public static void main(String[] args) {
         Shape shape = new Shape(20);
